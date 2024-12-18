@@ -27,10 +27,12 @@
     .screen-2{
         width: 100%;
         height: calc(50vw/3);
+        background-color: black;
     }
 
     .runline-2 p{
         font-size: 8vw;
+        margin: 3.6vw auto;
     }
 
 }

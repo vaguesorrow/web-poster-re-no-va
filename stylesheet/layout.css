@@ -907,3 +907,28 @@ body {
 .let-7-a:hover{
     background-image: url(../img/let-1-a.svg);
 }
+
+.screen-8{
+    width: 100vw;
+    height: calc(25vw/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #9900FF
+}
+
+.screen-8 p{
+    font-size: 8.6vw;
+}
+
+.text-8-1{
+    color: #ffffff;
+    animation: scale-8-1 1.7s infinite;
+    transform-origin: left bottom;
+}
+
+.text-8-2{
+    animation: scale-8-2 1.7s infinite;
+    transform-origin: right bottom;
+}
