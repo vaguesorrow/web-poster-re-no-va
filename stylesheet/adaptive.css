@@ -35,4 +35,9 @@
         margin: 3.6vw auto;
     }
 
+    @keyframes runline-2{
+        0% { transform: translateX(-10%);}
+        100% { transform: translateX(0%);}
+    }
+
 }
