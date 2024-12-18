@@ -35,11 +35,6 @@
         margin: 3.6vw auto;
     }
 
-    @keyframes runline-2{
-        0% { transform: translateX(-18%);}
-        100% { transform: translateX(0%);}
-    }
-
     .screen-3{
         width: 100%;
         height: calc(50vw/3);
@@ -51,8 +46,10 @@
     }
     
     .el-3-1, .el-3-2{
+        width: 0%;
+    }
+    .text-3{
         width: 100%;
-        height: 200%;
     }
 
 }
