@@ -36,8 +36,13 @@
     }
 
     @keyframes runline-2{
-        0% { transform: translateX(-10%);}
+        0% { transform: translateX(-15%);}
         100% { transform: translateX(0%);}
+    }
+
+    .screen-3{
+        width: 100%;
+        height: calc(50vw/3);
     }
 
 }
