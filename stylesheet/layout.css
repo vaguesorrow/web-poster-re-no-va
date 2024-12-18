@@ -183,27 +183,25 @@ body {
 
 .strelki{
     position: absolute;
-    width: 50vw;
-    height: 50vw;
-    left: 50vw;
-    top: 0vw;
+    width: 100%;
+    height: 100%;
 }
 
 .strelki img{
-    width: 25vw;
+    width: 50%;
 }
 
 .st1{
     position: absolute;
-    left: 3vw;
-    top: 3vw;
+    left: 6%;
+    top: 6%;
     animation: rotate-1-1 1s infinite linear;
 }
 
 .st2{
     position: absolute;
-    left: 22vw;
-    top: 22vw;
+    left: 44%;
+    top: 44%;
     animation: rotate-1-2 1s infinite linear;
 }
 
