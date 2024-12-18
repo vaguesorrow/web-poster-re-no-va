@@ -65,9 +65,9 @@ body {
 
 .let-1-v{
     position: absolute;
-    left: 25vw;
-    top: 25vw;
-    height: 12.5vw;
+    left: 50%;
+    top: 50%;
+    height: 25%;
     animation: scale-let-1-v 1s infinite;
     transform-origin: left center;
 }
