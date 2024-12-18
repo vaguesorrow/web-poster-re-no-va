@@ -2,4 +2,18 @@
     .body{
         flex-direction: column;
     }
+
+    .screen-1{
+        height: 200vw;
+    }
+
+    .logo-1{
+        width: 100vw;
+        height: 100vw;
+    }
+
+    .circles-1{
+        width: 100vw;
+        height: 100vw;
+    }
 }
