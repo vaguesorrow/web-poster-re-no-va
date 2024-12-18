@@ -220,7 +220,7 @@ body {
     display: flex;
     width: 125vw;
     height: 100%;
-    align-items:top;
+    align-items:center;
     justify-content: center;
     overflow: hidden;
     animation: runline-2 0.7s linear infinite;
@@ -938,5 +938,3 @@ body {
     animation: scale-8-2 1.7s infinite;
     transform-origin: right bottom;
 }
-
-
