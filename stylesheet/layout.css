@@ -236,7 +236,7 @@ body {
 .down{
     rotate: 180deg;
 }
-.runline:hover {
+.runline-2:hover {
     animation-play-state: paused;
 }
 
