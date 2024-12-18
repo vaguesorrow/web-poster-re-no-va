@@ -215,18 +215,18 @@ body {
     overflow-x: hidden;
 }
 
-.runline{
-    position: absolute;
+.runline-2{
+    position: relative;
     display: flex;
     width: 125vw;
-    height: calc(25vw/3);
+    height: 100%;
     align-items:top;
     justify-content: center;
     overflow: hidden;
     animation: runline-2 0.7s linear infinite;
 }
 
-.runline p{
+.runline-2 p{
     color: #ffffff;
     font-size: 4vw;
     margin: 1.8vw auto;
