@@ -36,7 +36,7 @@
     }
 
     @keyframes runline-2{
-        0% { transform: translateX(-17%);}
+        0% { transform: translateX(-11%);}
         100% { transform: translateX(0%);}
     }
 
@@ -45,4 +45,8 @@
         height: calc(50vw/3);
     }
 
+    @keyframes scale-3-1{
+        0%, 100% { transform: scale(1,1);}
+        50% { transform: scale(0.1,1);}
+    }
 }
