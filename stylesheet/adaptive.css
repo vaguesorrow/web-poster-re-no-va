@@ -5,6 +5,7 @@
 
     .screen-1{
         height: 200vw;
+        flex-direction: column;
     }
 
     .logo-1{
