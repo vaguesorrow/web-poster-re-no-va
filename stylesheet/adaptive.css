@@ -29,6 +29,11 @@
         height: calc(50vw/3);
         background-color: black;
     }
+
+    @keyframes runline-2{
+        0% { transform: translateX(-17%);}
+        100% { transform: translateX(0%);}
+    }
     
     .runline-2 p{
         margin: 3.6vw auto;
@@ -51,5 +56,10 @@
     .text-3{
         width: 100%;
     }
+
+    @keyframes runline-2{
+    0% { transform: translateX(-22%);}
+    100% { transform: translateX(0%);}
+}
 
 }
