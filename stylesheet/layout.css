@@ -320,8 +320,8 @@ body {
 
 .back-4{
     position: absolute;
-    width: calc(50vw/3);
-    height: calc(100vw/3);
+    width: 100%;
+    height: 100%;
 }
 .t-list-4-1{
     position: absolute;
@@ -358,8 +358,8 @@ body {
 
 .strbox-4{
     position: relative;
-    width: calc(50vw/3);
-    height: calc(50vw/3);
+    width: 25%;
+    height:50%;
 }
 
 .strbox-4 img{
@@ -383,8 +383,8 @@ body {
 
 
 .num-4{
-    height:  calc(100vw/3);
-    width:  50vw;
+    height:  100%;
+    width: 100%;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -510,7 +510,7 @@ body {
 .grad-6-1{
     width: calc(100vw/3);
     position: absolute;
-    top: calc(50vw/3);
+    top: 50%;
     left: 0;
 }
 
@@ -518,7 +518,7 @@ body {
     width: calc(50vw/3);
     position: absolute;
     top: 0;
-    left: 50vw;
+    right: 0;
     rotate: 180deg;
 }
 
@@ -664,10 +664,9 @@ body {
 
 .middle-bstr-7{
     position: absolute;
-    width: 50vw;
-    height: calc(50vw/3);
+    width: 100%;
+    height:100%;
     left: 0;
-    top: calc(50vw/3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -676,8 +675,8 @@ body {
 
 .bstr-7-1{
     position: relative;
-    width: calc(50vw/3);
-    height: calc(50vw/3);
+    width: calc(100%/3);
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -686,8 +685,8 @@ body {
 
 .bstr-7-2{
     position: relative;
-    width: calc(50vw/3);
-    height: calc(50vw/3);
+    width: calc(100%/3);
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -697,8 +696,8 @@ body {
 
 .bstr-7-3{
     position: relative;
-    width: calc(50vw/3);
-    height: calc(50vw/3);
+    width: calc(100%/3);
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -708,10 +707,9 @@ body {
 
 .middle-dots-7{
     position: absolute;
-    width: 50vw;
-    height: calc(50vw/3);
+    width: 100%;
+    height: 100%;
     left: 0;
-    top: calc(50vw/3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -719,8 +717,8 @@ body {
 }
 .dot-7-1, .dot-7-2, .dot-7-3{
     position: relative;
-    width: calc(50vw/3);
-    height: calc(50vw/3);
+    width: calc(100%/3);
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -733,10 +731,9 @@ body {
 
 .middle-pstr-7{
     position: absolute;
-    width: 50vw;
-    height: calc(50vw/3);
+    width: 100%;
+    height: 100%;
     left: 0;
-    top: calc(50vw/3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -745,8 +742,8 @@ body {
 
 .pstr-7-1{
     position: relative;
-    width: calc(50vw/3);
-    height: calc(50vw/3);
+    width: calc(100%/3);
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -754,13 +751,13 @@ body {
 }
 .empty{
     position: relative;
-    width: 50vw;
-    height: calc(50vw/3);
+    height: calc(100%/3);
+    width:100%;
 }
 .pstr-7-2{
     position: relative;
-    width: calc(50vw/3);
-    height: calc(50vw/3);
+    width: calc(100%/3);
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -770,8 +767,8 @@ body {
 
 .pstr-7-3{
     position: relative;
-    width: calc(50vw/3);
-    height: calc(50vw/3);
+    width: calc(100%/3);
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -781,24 +778,24 @@ body {
 
 .black-str-7{
     position: relative;
-    width: 6.6vw;
-    margin-right: 5.8vw;
+    width: 39.6%;
+    margin-right: 34.8%;
     transform-origin: right center;
     animation: rotate-7 0.8s infinite linear;
 }
 
 .purple-str-7{
     position: relative;
-    width: 4vw;
-    margin-left: 4.5vw;
+    width: 24%;
+    margin-left: 27%;
     transform-origin: left center;
     animation: rotate-7 0.8s infinite linear;
 }
 
 .connect-7{
     position: relative;
-    width: 50vw;
-    height: calc(50vw/3);
+    width: 100%;
+    height: calc(100%/3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -806,7 +803,7 @@ body {
 }
 
 .connect-7 img{
-    height: calc(55vw/3);
+    height: 105%;
     position: absolute;
 }
 
@@ -827,8 +824,8 @@ body {
 
 .let-7-r{
     position: absolute;
-    width: 25vw;
-    height: 50vw;
+    width: 50%;
+    height: 100%;
     background: url(../img/let-7-r.svg);
     background-size: cover;
     background-repeat: no-repeat
@@ -836,11 +833,10 @@ body {
 
 .let-7-e{
     position: absolute;
-    left: 25vw;
+    left: 50%;
     top: 0%;
-    height: 25vw;
-    width: 25vw;
-
+    height: 50%;
+    width: 50%;
     background: url(../img/let-7-e.svg);
     background-size: cover;
     background-repeat: no-repeat
@@ -848,10 +844,10 @@ body {
 
 .let-7-n{
     position: absolute;
-    left: 37.5vw;
-    top: 25vw;
-    height: 25vw;
-    width: 12.5vw;
+    left: 75%;
+    top: 50%;
+    height: 50%;
+    width: 25%;
     background: url(../img/let-7-n.svg);
     background-size: cover;
     background-repeat: no-repeat
@@ -859,10 +855,10 @@ body {
 
 .let-7-o{
     position: absolute;
-    left: 25vw;
-    top: 37.5vw;
-    height: 12.5vw;
-    width: 12.5vw;
+    left: 50%;
+    top: 75%;
+    height: 25%;
+    width: 25%;
     background: url(../img/let-7-o.svg);
     background-size: cover;
     background-repeat: no-repeat
@@ -870,10 +866,10 @@ body {
 
 .let-7-v{
     position: absolute;
-    left: 25vw;
-    top: 25vw;
-    height: 12.5vw;
-    width: 6.25vw;
+    left: 50%;
+    top: 50%;
+    height: 25%;
+    width: 12.5%;
     background: url(../img/let-7-v.svg);
     background-size: cover;
     background-repeat: no-repeat
@@ -881,10 +877,10 @@ body {
 
 .let-7-a{
     position: absolute;
-    left: 31.25vw;
-    top: 25vw;
-    height: 12.5vw;
-    width: 6.25vw;
+    left: 62.5%;
+    top: 50%;
+    height: 25%;
+    width: 12.5%;
     background: url(../img/let-7-a.svg);
     background-size: cover;
     background-repeat: no-repeat
@@ -938,4 +934,3 @@ body {
     animation: scale-8-2 1.7s infinite;
     transform-origin: right bottom;
 }
-

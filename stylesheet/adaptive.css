@@ -2,37 +2,36 @@
     .body{
         flex-direction: column;
     }
-
+    
     .screen-1{
         width: 100%;
         height: 200vw;
         flex-direction: column;
     }
-
+    
     .logo-1{
         width: 100%;
         height: 100vw;
     }
-
+    
     .circles-1{
         width: 100%;
         height: 100vw;
     }
-
+    
     .strelki-1{
         width: 100%;
         height: 100vw;
     }
-
+    
     .screen-2{
         width: 100%;
         height: calc(50vw/3);
         background-color: black;
     }
 
-    @keyframes runline-2{
-        0% { transform: translateX(-17%);}
-        100% { transform: translateX(0%);}
+    .runline-2{
+        animation: runline-2 0.35s linear infinite;
     }
     
     .runline-2 p{
@@ -40,11 +39,16 @@
         transform: scale(0.7, 4);
     }
 
+    @keyframes runline-2{
+        0% { transform: translateX(-8%);}
+        100% { transform: translateX(0%);}
+    }
+    
     .screen-3{
         width: 100%;
         height: calc(50vw/3);
     }
-
+    
     @keyframes scale-3-1{
         0%, 100% { transform: scale(1,1);}
         50% { transform: scale(0.1,1);}
@@ -56,10 +60,155 @@
     .text-3{
         width: 100%;
     }
-
-    @keyframes runline-2{
-    0% { transform: translateX(-22%);}
-    100% { transform: translateX(0%);}
-}
+    
+    .screen-4{
+        height: calc(200vw/3);
+        flex-direction: column;
+    }
+    
+    .list-4-1{
+        width: 0%;
+        height: 0%;
+    }
+    
+    .n86{
+        width: 100vw;
+        height: 50vw;
+    }
+    
+    .num-4-1, .num-4-2{
+        font-size: 50vw;
+    }
+    
+    
+    .list-4-2{
+        width: 100vw;
+        height: calc(50vw/3);
+    }
+    
+    .t-list-4-2{
+        width: 100vw;
+        height: calc(50vw/3);
+    }
+    
+    .back-4{
+        width: 100vw;
+        height: calc(50vw/3);
+        transform: scale(20, 1);
+    }
+    
+    @keyframes scale-4{
+        0%, 100% { transform: scale(5,1);}
+        50% { transform: scale(5, 0.1);}
+    }
+    
+    .screen-6{
+        height: 150vw;
+        flex-direction: column;
+    }
+    
+    .left-6{
+        width: 100vw;
+        height: 100vw;
+    }
+    
+    .drop-6{
+        width: 100vw;
+        height: 100vw;
+    }
+    
+    .drop-6 p{
+        font-size: 7vw;
+        margin: 0 auto;
+    }
+    
+    .circle-6{
+        width: 30vw;
+    }
+    
+    .right-6{
+        width: 100vw;
+        height: 50vw;
+    }
+    
+    .grad-6-2{
+        width: 30vw;
+    }
+    
+    .square-6{
+        width: 25vw;
+    }
+    
+    .text-6{
+        width: 25vw;
+    }
+    
+    @keyframes move-sq-6{
+        0%, 100% { transform: translate(0,0);}
+        25% { transform: translate(50vw, 0) ;}
+        50% { transform: translate(50vw, 25vw) ;}
+        75% { transform: translate(0, 25vw) ;}
+    }
+    
+    @keyframes move-t-6{
+        0%, 100% { transform: translate(75vw,25vw);}
+        25% { transform: translate(25vw, 25vw) ;}
+        50% { transform: translate(25vw, 0) ;}
+        75% { transform: translate(75vw, 0) ;}
+    }
+    
+    .screen-7{
+        height: 200vw;
+        width: 100vw;
+        flex-direction: column;
+    }
+    
+    .left-7{
+        width: 100vw;
+        height: 100vw;
+    }
+    
+    .navyk{
+        width: 100%;
+        height: calc(100%/3);
+    }
+    
+    .back-7{
+        width: 100vw;
+        transform: scale(3);
+    }
+    
+    .letbox-7-1{
+        width: calc(100%/3);
+        height: 100%;
+    }
+    
+    .letbox-7-2{
+        width: calc(50%/3);
+        height: 100%;
+        left: calc(100vw/3);
+    }
+    
+    .letbox-7-3{
+        width: calc(50%/3);
+        height: 100%;
+        left: 50vw;
+    }
+    
+    .letbox-7-4{
+        width: calc(100%/3);
+        height: 100%;
+        left: calc(200vw/3);
+    }
+    
+    .logo-7{
+        width: 100vw;
+        height: 100vw;
+    }
+    
+    .connect-7 p{
+        font-size: 40vw;
+        margin-bottom: 10vw;
+    }
 
 }
