@@ -64,7 +64,7 @@
 }
 
 @keyframes runline-2{
-    0% { transform: translateX(-20%);}
+    0% { transform: translateX(-17%);}
     100% { transform: translateX(0%);}
 }
 
