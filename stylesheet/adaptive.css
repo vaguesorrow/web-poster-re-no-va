@@ -98,8 +98,8 @@
     }
     
     @keyframes scale-4{
-        0%, 100% { transform: scale(5,1);}
-        50% { transform: scale(5, 0.1);}
+        0%, 100% { transform: scale(7,1);}
+        50% { transform: scale(7, 0.1);}
     }
     
     .screen-6{
@@ -212,7 +212,7 @@
     }
 
     .screen-8 p{
-        font-size: 8.3vw;
+        font-size: 8.4vw;
     }
 
 }
