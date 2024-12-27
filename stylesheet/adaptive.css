@@ -94,7 +94,7 @@
     .back-4-2{
         width: 100vw;
         height: calc(50vw/3);
-        transform: scale(20, 1);
+        transform: scale(20, 0.1);
     }
     
     @keyframes scale-4{
