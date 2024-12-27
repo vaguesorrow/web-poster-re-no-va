@@ -316,6 +316,7 @@ body {
     position: relative;
     width: calc(50vw/3);
     height: calc(100vw/3);
+    overflow: hidden;
 }
 
 .back-4-1{
@@ -342,6 +343,7 @@ body {
     position: relative;
     width: calc(50vw/3);
     height: calc(100vw/3);
+    overflow: hidden;
 }
 
 .t-list-4-2{
