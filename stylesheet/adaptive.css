@@ -95,6 +95,7 @@
         width: 100vw;
         height: calc(50vw/3);
         transform: scale(50, 0.1);
+        overflow: hidden;
     }
     
     @keyframes scale-4{
