@@ -318,7 +318,7 @@ body {
     height: calc(100vw/3);
 }
 
-.back-4{
+.back-4-1{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -330,6 +330,14 @@ body {
     animation: scale-4 1s infinite;
     transform-origin: top;
 }
+
+.back-4-2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: scale(1, 10);
+}
+
 .list-4-2{
     position: relative;
     width: calc(50vw/3);
