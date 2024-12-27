@@ -92,10 +92,8 @@
     }
     
     .back-4-2{
-        width: 100vw;
-        height: calc(50vw/3);
-        transform: scale(5);
-        overflow: hidden;
+        width: 0vw;
+        height: 0vw;
     }
     
     @keyframes scale-4{
